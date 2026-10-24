@@ -1,7 +1,7 @@
-"""TheRiskTheory package."""
+"""Solvency and pricing module."""
 
-from .solvency_pricing.premiums import expected_value_premium, pure_premium
-from .solvency_pricing.solvency import guarantee_capital, solvency_margin
+from .premiums import expected_value_premium, pure_premium
+from .solvency import guarantee_capital, solvency_margin
 
 __all__ = [
     "pure_premium",

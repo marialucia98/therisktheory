@@ -1,13 +1,9 @@
-"""De Finetti risk theory models."""
+"""De Finetti reserve and profit module."""
 
-from .reserves import (
-    de_finetti_premium,
-    de_finetti_profit,
-    reserve_fund,
-)
+from .reserves import de_finetti_premium, de_finetti_profit, reserve_fund
 
 __all__ = [
-    "reserve_fund",
-    "de_finetti_profit",
     "de_finetti_premium",
+    "de_finetti_profit",
+    "reserve_fund",
 ]
